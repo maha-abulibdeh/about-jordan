@@ -1,0 +1,160 @@
+.navbar{ background:#F97300;}
+.nav-link , .navbar-brand{ color: #f4f4f4; cursor: pointer;}
+.nav-link{ margin-right: 1em !important;}
+.nav-link:hover{ background: #f4f4f4; color: #f97300; }
+.navbar-collapse{ justify-content: flex-end;}
+.navbar-toggler{  background:#fff !important;}
+.navbar-collapse{
+    justify-content: flex-end;
+   }
+   .bg-dark{
+    background-color:#1f2520!important
+    }
+    .bg-primary{
+    background-color:#110110!important
+    }
+    .row{
+        font-family: cursive;
+    }
+    .main-text{
+        background: rgba(255, 255, 255, 0.7);
+        padding: 20px;
+    }
+
+    body{
+       
+            
+            background-image:url("image/jordan.jpg");
+       
+
+            background-attachment: fixed;
+            background-size: cover;
+            background-repeat: no-repeat;
+            background-position: center;
+    }
+           
+    
+    
+       .overlay{
+        position: absolute;
+        min-height: 100%;
+        min-width: 100%;
+        left: 0;
+        top: 0;
+        background:(151, 177, 177, 0.356);
+       }
+    
+       .description{
+        position: absolute;
+        top: 30%;
+        margin: auto;
+        padding: 2em;
+    }
+    .description h1{
+     color:rgba(241, 124, 13, 0.911) ;
+    }
+    .description p{
+     color:rgb(102, 102, 102);
+     font-size: 20px;
+     width: 100%;
+     line-height: 1.5;
+    }
+    .description button{
+     border:1px  solid #F97300;
+     background:#F97300;
+     color:#fff;
+    }
+    .about{
+        margin: 4em 0;
+        padding: 1em;
+        position: relative;
+       }
+       .about h1{
+        color:#F97300;
+        margin: 2em;
+       }
+       .about img{
+        height: 100%;
+           width: 100%;
+           border-radius: 50%
+       }
+       .about span{
+        display: block;
+        color: #888;
+        position: absolute;
+        left: 115px;
+       }
+       .about .desc{
+        padding: 2em;
+        border-left:4px solid rgb(207, 107, 13);
+       }
+       .about .desc h3{
+        color: rgb(235, 244, 245);
+       }
+       .about .desc p{
+        line-height:2;
+        color:#1f2520;
+       }
+
+       .blog{
+        margin: 4em 0;
+        position: relative; 
+        top: 85%;
+       }
+       .blog h1{
+        color:#F97300;
+        margin: 2em; 
+       }
+       .blog .card{
+        box-shadow: 0 0 20px #ccc;
+       }
+       .blog .card img{
+        width: 100%;
+        height: 12em;
+       }
+       .blog .card-title{
+        color:#F97300;
+         
+       }
+       .blog .card-body{
+        padding: 1em;
+        
+       }
+       .team{
+        margin: 15em 0;
+        position: relative;
+        top: 95%;  
+       }
+       .team h1{
+        color:#F97300;
+        margin: 2em; 
+       }
+       .team .item{
+        position:relative;
+       }
+       .team .des{
+        background: #F97300;
+        color: #fff;
+        text-align: center;
+        border-bottom-left-radius: 95%;
+        transition: 7s ease-in-out;
+       }
+       .team .item:hover .des{
+        height: 100%;
+        background:#f973007d;
+        position: absolute;
+        width: 95%;
+        padding: 10em;
+        top: 0;
+        border-bottom-left-radius:0;
+       }
+        
+
+        .tcm-text{
+            font-size: 100%;
+            color:#f973007d;
+            font-family:fantasy;
+            font-weight: 500;
+        }
+        a {
+            color: #f97300;}
